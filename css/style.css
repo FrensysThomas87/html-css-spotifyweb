@@ -15,6 +15,15 @@
   max-width: 100%;
 }
 
+
+.float-l{
+  float: left;
+}
+
+.float-r{
+  float: right;
+}
+
 .fluo-green{
   color: #97DE29;
 }
@@ -40,3 +49,12 @@
 }
 
 /*end utilities*/
+
+/*header*/
+header{
+
+  height: 80px;
+  background-color: #040509;
+  width: 80%;
+}
+/*end header*/
