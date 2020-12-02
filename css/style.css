@@ -50,7 +50,7 @@ img{
 }
 
 .nav-color{
-  color: #f8f8f8;
+  color: #ccc;
 }
 
 .main-bg-color{
@@ -156,6 +156,37 @@ header{
 
 /*end sidebar*/
 
+/*navbar*/
+.navbar{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  }
+
+  .navbar li{
+    padding-right: 30px;
+
+  }
+
+  .navbar li a:hover{
+    color: #fff;
+  }
+
+  .navbar li a{
+    text-decoration: none;
+  }
+
+  .navbar li .special-link::after{
+    display: block;
+    content: "";
+    height: 4px;
+    width: 40px;
+    background-color: #97DE29;
+    margin:5px 30px;
+    border-radius: 4px;
+  }
+/*end navbar*/
+
 /*main*/
 main{
   width: 85vw;
@@ -190,34 +221,41 @@ main h2{
 
 .songs{
   width: calc(100% / 6 - 30px);
+
+}
+
+.opacity{
+  width: 215px;
+  height: 215px;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  display: none;
+}
+
+.song-container .songs .img-song-container:hover .opacity,
+.song-container .songs .img-song-container:hover .fa.fa-play-circle-o{
+  display: block;
+  cursor: pointer;
+}
+
+.img-song-container{
+  position: relative;
+}
+
+.fa.fa-play-circle-o{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+  display: none;
+  z-index: 99;
 }
 
 
-/*navbar*/
-.navbar{
-  display: flex;
-  justify-content: center;
-  list-style: none;
-  }
 
-  .navbar li{
-    padding-right: 30px;
 
-  }
 
-  .navbar li a{
-    text-decoration: none;
-  }
-
-  .navbar li .special-link::after{
-    display: block;
-    content: "";
-    height: 4px;
-    width: 40px;
-    background-color: #97DE29;
-    margin:5px 30px;
-  }
-/*end navbar*/
 /*end main*/
 
 /*footer*/
