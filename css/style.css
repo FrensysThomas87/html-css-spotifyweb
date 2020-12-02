@@ -24,6 +24,12 @@
   float: right;
 }
 
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .fluo-green{
   color: #97DE29;
 }
@@ -53,8 +59,16 @@
 /*header*/
 header{
 
-  height: 80px;
+  height: 100px;
   background-color: #040509;
-  width: 80%;
+  width: 85%;
 }
 /*end header*/
+
+/*sidebar*/
+#sidebar{
+  width: 15%;
+  background-color: #000;
+  height: 100vh;
+}
+/*end sidebar*/
