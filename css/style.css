@@ -65,12 +65,12 @@ header{
   height: 100px;
   background-color: #040509;
   width: 85%;
-  
+
 }
 
 #upgrade-button{
   position: fixed;
-  top: 0;
+  top: 30px;
   right: 15px;
   border: 1px solid #6d6b76;
   border-radius: 20px;
@@ -78,7 +78,11 @@ header{
   text-align: center;
   color: #fff;
   z-index: 1001;
-  margin-top: 30px;
+}
+
+#upgrade-button:hover{
+  cursor: pointer;
+   transform: scale(1.1);
 }
 
 
@@ -89,7 +93,7 @@ header{
   width: 15%;
   background-color: #000;
   height: 100vh;
-  padding: 15px;
+  padding: 30px 15px;
 }
 
 .logo-spotify-container{
