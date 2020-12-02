@@ -1,3 +1,6 @@
+/*utilities*/
+
+
 *{
   margin: 0;
   padding: 0;
@@ -11,3 +14,29 @@
   width: 100vw;
   max-width: 100%;
 }
+
+.fluo-green{
+  color: #97DE29;
+}
+
+.plus-icon-color{
+  color: #A3A3A3;
+}
+
+.li-sidebar-color{
+  color: #6A6A6A;
+}
+
+.john-doe-icon-color{
+  color: #808080;
+}
+
+.nav-color{
+  color: #5D6064;
+}
+
+.main-color{
+  color: #141922;
+}
+
+/*end utilities*/
