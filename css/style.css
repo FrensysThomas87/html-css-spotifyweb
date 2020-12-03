@@ -416,9 +416,7 @@ footer .footer-left p{
   content: "";
   margin-left: -60px;
   margin-top: 10px;
-
-
-
+  display: inline-block;
 }
 
 .player-bar::before{
@@ -426,7 +424,7 @@ footer .footer-left p{
   color: #6a6a6a;
   margin-left: -50px;
   margin-bottom: 70px;
-  
+
 }
 
 
