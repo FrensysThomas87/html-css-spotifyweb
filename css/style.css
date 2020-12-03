@@ -394,6 +394,13 @@ footer .footer-left p{
   margin-top: 23px;
 }
 
+.footer-center{
+  flex-direction: column;
+  justify-content: center;
+
+
+}
+
 .footer-center i,
 .footer-right i{
   margin-right: 20px;
@@ -403,30 +410,33 @@ footer .footer-left p{
   font-size: 30px;
 }
 
-/* .control-player{
-  text-align: center;
-  width: 300px;
-  border-bottom: 4px solid #6a6a6a;
-  margin-bottom: 10px;
-  padding-bottom: 10px;
-} */
+
+
+
+.control-player-icons{
+  margin-right: 35px;
+}
 
 .player-bar{
-  width: 300px;
+  width: 350px;
   height: 4px;
   background-color: #6a6a6a;
   content: "";
-  margin-left: -60px;
+  /* margin-left: -50px; */
   margin-top: 10px;
-  display: inline-block;
 }
 
-.player-bar::before{
-  content: "0.24";
-  color: #6a6a6a;
-  margin-left: -50px;
-  margin-bottom: 70px;
+.time-passed{
+  margin-left: -70px;
+
 }
+
+.time-left{
+  margin-left: 390px;
+
+}
+
+
 
 .fa.fa-volume-up::after{
   display: inline-block;
