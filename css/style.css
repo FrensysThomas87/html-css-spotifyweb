@@ -365,7 +365,8 @@ footer{
 }
 
 .footer-left,
-.footer-center{
+.footer-center,
+.footer-right{
   align-items: center;
 }
 
@@ -393,7 +394,8 @@ footer .footer-left p{
   margin-top: 23px;
 }
 
-.footer-center i{
+.footer-center i,
+.footer-right i{
   margin-right: 20px;
 }
 
@@ -424,7 +426,16 @@ footer .footer-left p{
   color: #6a6a6a;
   margin-left: -50px;
   margin-bottom: 70px;
+}
 
+.fa.fa-volume-up::after{
+  display: inline-block;
+  content: "";
+  background-color: #6a6a6a;
+  height: 4px;
+  width: 100px;
+  margin-left: 20px;
+  vertical-align: middle;
 }
 
 
