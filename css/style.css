@@ -240,6 +240,11 @@ header{
 /*end sidebar*/
 
 /*navbar*/
+
+#navbar-container{
+  margin-top: 110px;
+}
+
 .navbar{
 
   justify-content: center;
@@ -282,7 +287,7 @@ main{
 }
 
 .bl-main h2{
-  margin-top: 120px;
+  margin-top: 60px;
   margin-bottom: 20px;
   font-size: 30px;
 }
