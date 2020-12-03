@@ -100,7 +100,7 @@ header{
   padding: 10px 20px;
   text-align: center;
   color: #fff;
-  z-index: 1001;
+
 
 }
 
@@ -116,7 +116,7 @@ header{
 #sidebar{
   width: 264px;
   background-color: #000;
-  height: 100vh;
+  height: calc(100% - 80px);
   padding: 30px 15px;
 
 }
@@ -146,7 +146,7 @@ header{
 }
 
 .sidebar-content{
-  height: calc(100% - 260px);
+  height: calc(100% - 160px);
 }
 
 .home-logo-container span strong
@@ -273,9 +273,10 @@ header{
 main{
   width: calc(100% - 264px);
   max-width: 85%;
-  height: 100%;
+  height:calc(100% - 80px);
   overflow-y: auto;
   padding: 120px 15px 20px;
+
 }
 
 .bl-main h2{
@@ -359,7 +360,7 @@ footer{
   display: flex;
   bottom: 0;
   z-index: 2001;
-  position: fixed;
+
 }
 /*end footer*/
 
