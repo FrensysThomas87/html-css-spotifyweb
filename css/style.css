@@ -376,6 +376,21 @@ footer .footer-left span,
 footer .footer-left p{
   margin-left: 8px;
 }
+
+.fa.fa-folder-o{
+  margin-left: 40px;
+}
+
+.fa.fa-heart-o{
+  margin-left: 10px;
+}
+
+.fa.fa-folder-o,
+.fa.fa-heart-o{
+  margin-top: 23px;
+
+}
+
 /*end footer*/
 
 /*MEDIA QUERIES*/
