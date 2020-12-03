@@ -33,6 +33,10 @@ img{
   clear: both;
 }
 
+.flex{
+  display: flex;
+}
+
 .fluo-green{
   color: #97DE29;
 }
@@ -101,10 +105,11 @@ header{
 
 /*sidebar*/
 #sidebar{
-  width: 15%;
+  width: 187px;
   background-color: #000;
   height: 100vh;
   padding: 30px 15px;
+  overflow-y: auto;
 }
 
 .logo-spotify-container{
@@ -117,7 +122,7 @@ header{
   border-left: 4px solid #97DE29;
   margin-left: -15px;
   height: 40px;
-  display: flex;
+  
   align-items: center;
 }
 
@@ -157,7 +162,7 @@ header{
 
 /*navbar*/
 .navbar{
-  display: flex;
+
   justify-content: center;
   list-style: none;
   }
@@ -188,7 +193,7 @@ header{
 
 /*main*/
 main{
-  width: 85vw;
+  width: calc(100% - 187px);
   max-width: 85%;
   height: 100%;
   overflow-y: auto;
@@ -202,9 +207,9 @@ main h2{
 }
 
 .song-container{
-  display: flex;
-  justify-content: space-between;
+
   text-align: center;
+  flex-wrap: wrap;
 }
 
 .song-container .songs h3{
@@ -219,7 +224,8 @@ main h2{
 }
 
 .songs{
-  width: calc(100% / 6 - 30px);
+  width: calc(100% / 6 - 15px);
+  margin-right: 15px;
 }
 
 .opacity{
@@ -271,6 +277,7 @@ footer{
 @media screen and (max-width:991px){
   .songs{
      width: calc(100% / 4 - 30px);
+
    }
 }
 
