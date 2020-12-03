@@ -41,12 +41,13 @@ img{
   color: #A3A3A3;
 }
 
-.li-sidebar-color,
-.nav-color{
+.li-sidebar-color
+{
   color: #6A6A6A;
 }
 
-.john-doe-icon-color{
+.john-doe-icon-color,
+.nav-color{
   color: #808080;
 }
 
@@ -270,8 +271,7 @@ footer{
 @media screen and (max-width:991px){
   .songs{
      width: calc(100% / 4 - 30px);
-
-  }
+   }
 }
 
 
