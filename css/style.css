@@ -125,6 +125,24 @@ header{
 
 }
 
+
+
+
+
+
+#sidebar .li-sidebar-color:hover,
+#sidebar .home-logo-container .color-white:hover,
+#sidebar .search-library-container .hidden-xs:hover,
+#sidebar .install-app .top-install-app span:hover
+{
+  cursor: pointer;
+  color: #fff;
+}
+
+#sidebar .add-playlist:hover{
+  background-color: #fff;
+}
+
 .logo-spotify-container{
   width: 150px;
 }
