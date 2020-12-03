@@ -243,6 +243,7 @@ header{
 
   justify-content: center;
   list-style: none;
+  flex-wrap: wrap;
   }
 
   .navbar li{
@@ -464,7 +465,10 @@ footer .footer-left p{
 
 
 @media screen and (max-width:767px){
+  .songs{
+     width: calc(100% / 2 - 30px);
 
+   }
 }
 
 @media screen and (max-width:500px){
