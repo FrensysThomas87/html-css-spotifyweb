@@ -545,6 +545,23 @@ footer .footer-left p{
 /*end footer*/
 
 /*MEDIA QUERIES*/
+
+@media screen and (min-width:992px) and (max-width:1429px){
+
+  .logo-spotify-container {
+    width: 127px;
+  }
+
+  .footer-left{
+    width: 212px;
+  }
+
+  .fa.fa-folder-o {
+    margin-left: 14px;
+}
+}
+
+
 @media screen and (max-width:991px){
 
   .logo-spotify-container{
@@ -616,16 +633,7 @@ footer .footer-left p{
   }
 
 
-elemento {
 
-}
-* {
-
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
-}
 .song-container .songs h3 {
   font-size: 15px;
 }
@@ -686,7 +694,7 @@ elemento {
   .time-left {
     margin-left: 280px;
 
-}
+  }
 
 }
 
