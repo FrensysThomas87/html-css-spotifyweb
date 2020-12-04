@@ -92,8 +92,6 @@ header{
   align-items: center;
   padding-right: 15px;
   z-index: 1000;
-
-
 }
 
 #upgrade-button{
@@ -271,7 +269,7 @@ header{
   justify-content: center;
   list-style: none;
   flex-wrap: wrap;
-  }
+}
 
   .navbar li{
     padding-right: 30px;
@@ -318,6 +316,7 @@ main{
 .song-container{
   text-align: center;
   flex-wrap: wrap;
+
 }
 
 .song-container .songs h3{
@@ -415,7 +414,7 @@ footer{
 .footer-left,
 .footer-right{
   width: 15%;
-  border: 1px solid #fff;
+  /* border: 1px solid #fff; */
 }
 
 
@@ -462,6 +461,10 @@ footer .footer-left p{
   transform: scale(1.2);
 }
 
+.footer-right{
+  justify-content: flex-end;
+}
+
 
 
 
@@ -479,7 +482,7 @@ footer .footer-left p{
 .vol-up{
   width: 100px;
   display: inline-block;
-  margin-left: 20px;
+  margin-left: 5px;
   vertical-align: middle;
   position: relative;
 }
@@ -539,27 +542,36 @@ footer .footer-left p{
 }
 
 
-
-/* .fa.fa-volume-up::after{
-  display: inline-block;
-  content: "";
-  background-color: #6a6a6a;
-  height: 4px;
-  width: 100px;
-  margin-left: 20px;
-  vertical-align: middle;
-} */
-
-
-
 /*end footer*/
 
 /*MEDIA QUERIES*/
 @media screen and (max-width:991px){
-  .songs{
-     width: calc(100% / 4 - 30px);
 
-   }
+  .logo-spotify-container{
+    width: 130px;
+  }
+
+  .navbar{
+    height: 100px;
+  }
+
+  .songs{
+     width: calc(100% / 4 - 15px);
+  }
+
+  .song-container .songs h4{
+    font-size: 14px;
+  }
+
+  .bl-main h2{
+    margin-top: 0;
+  }
+
+  .song-container .songs{
+    margin-top: 10px;
+  }
+
+
 }
 
 
@@ -567,7 +579,7 @@ footer .footer-left p{
 
 @media screen and (max-width:767px){
   .songs{
-     width: calc(100% / 2 - 30px);
+     width: calc(100% / 2 - 15px);
 
    }
 }
@@ -592,6 +604,7 @@ footer .footer-left p{
 
   main{
     width: calc(100% - 50px);
+
 
   }
 
