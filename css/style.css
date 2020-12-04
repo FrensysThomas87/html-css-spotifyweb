@@ -802,6 +802,16 @@ footer .footer-left p{
     width: calc(100% - 50px);
   }
 
+  header,
+  footer{
+    height: 80px;
+  }
+
+  main,
+  #sidebar{
+    height: calc(100% - 80px);
+  }
+
   .song-container .songs h3 {
     font-size: 17px;
 }
@@ -840,6 +850,21 @@ footer .footer-left p{
   footer{
     max-width: 100%;
   }
+
+  footer .footer-left img {
+    width: 36px;
+    margin-right: 4px;
+  }
+
+  footer .footer-left span, footer .footer-left p {
+      margin-left: 0;
+      font-size: 13px;
+  }
+
+
+
+
+
 
 }
 /*END MEDIA QUERIES*/
