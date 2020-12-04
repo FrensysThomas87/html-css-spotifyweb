@@ -458,6 +458,17 @@ footer .footer-left p{
   content: "";
   /* margin-left: -50px; */
   margin-top: 10px;
+  position: relative;
+}
+
+.player-time-song{
+  position: absolute;
+  background-color: #fff;
+  width: 30%;
+  height: 100%;
+  content: "";
+  left: 0;
+  bottom: 0;
 }
 
 .time-passed{
