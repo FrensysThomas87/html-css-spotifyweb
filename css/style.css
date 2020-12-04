@@ -403,6 +403,11 @@ footer{
   align-items: center;
 }
 
+.footer-left,
+.footer-right{
+  width: 20%;
+  border: 1px solid #fff;
+}
 
 
 footer .footer-left img{
@@ -430,7 +435,7 @@ footer .footer-left p{
 .footer-center{
   flex-direction: column;
   justify-content: center;
-  margin-right: 250px;
+  /* margin-right: 250px; */
 
 
 }
@@ -515,7 +520,7 @@ footer .footer-left p{
    }
 }
 
-@media screen and (max-width:500px){
+@media screen and (max-width:575px){
   .hidden-xs{
     display: none;
   }
