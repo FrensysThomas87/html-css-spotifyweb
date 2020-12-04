@@ -403,9 +403,11 @@ footer{
   align-items: center;
 }
 
+
+
 .footer-left,
 .footer-right{
-  width: 20%;
+  width: 15%;
   border: 1px solid #fff;
 }
 
@@ -463,18 +465,45 @@ footer .footer-left p{
   content: "";
   /* margin-left: -50px; */
   margin-top: 10px;
-  position: relative;
+
 }
 
-.player-time-song{
-  position: absolute;
+.fill{
   background-color: #fff;
   width: 30%;
   height: 100%;
   content: "";
-  left: 0;
-  bottom: 0;
+  position: relative;
 }
+
+.fill .point{
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: none;
+  right: 0;
+  top:50%;
+  transform: translate(0, -50%);
+}
+
+.player-bar:hover .point{
+  display: block;
+
+}
+
+.player-bar:hover{
+  cursor: pointer;
+  }
+
+.player-bar:hover .fill{
+  background-color: #97DE29;
+}
+
+
+
 
 .time-passed{
   margin-left: -70px;
