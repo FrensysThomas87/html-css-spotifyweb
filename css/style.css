@@ -853,7 +853,12 @@ footer .footer-left p{
 
   footer .footer-left img {
     width: 36px;
-    margin-right: 4px;
+    margin-right: 6px;
+  }
+
+  footer .footer-left .fa.fa-folder-o,
+  .fa.fa-heart-o{
+    margin-left: 0;
   }
 
   footer .footer-left span, footer .footer-left p {
@@ -861,6 +866,36 @@ footer .footer-left p{
       font-size: 13px;
   }
 
+footer .footer-center{
+  width: 226px;
+
+}
+
+  footer .footer-center i{
+    font-size: 17px;
+    margin-right: 10px;
+  }
+
+  footer .footer-center .fa.fa-play-circle-o{
+    font-size: 25px;
+  }
+
+  .player-bar {
+    width: 125px;
+    margin-top: 21px;
+}
+
+.time-left {
+    margin-left: 134px;
+}
+
+.time-passed {
+    margin-left: -25px;
+}
+
+.time-passed, .time-left {
+    margin-top: 17px;
+}
 
 
 
