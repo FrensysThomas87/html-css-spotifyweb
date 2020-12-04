@@ -393,7 +393,7 @@ footer{
   z-index: 1001;
   padding: 0 10px;
   justify-content: space-between;
-  position: relative;
+  position: absolute;
 
 }
 
