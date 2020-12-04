@@ -403,6 +403,13 @@ footer{
   align-items: center;
 }
 
+.footer-left span:hover,
+.footer-left .fa.fa-folder-o:hover,
+.footer-left .fa.fa-heart-o:hover{
+  cursor: pointer;
+  color: #fff;
+}
+
 
 
 .footer-left,
@@ -449,6 +456,10 @@ footer .footer-left p{
 
 .footer-center .fa.fa-play-circle-o{
   font-size: 30px;
+}
+
+.footer-center .fa.fa-play-circle-o:hover{
+  transform: scale(1.2);
 }
 
 
@@ -518,11 +529,8 @@ footer .footer-left p{
 }
 
 
-
-
 .time-passed{
   margin-left: -70px;
-
 }
 
 .time-left{
