@@ -558,7 +558,7 @@ footer .footer-left p{
 
   .fa.fa-folder-o {
     margin-left: 14px;
-}
+  }
 }
 
 
@@ -702,13 +702,113 @@ footer .footer-left p{
 
 
 @media screen and (max-width:767px){
+
+  #upgrade-button{
+    padding: 5px 20px;
+  }
+
+  #upgrade-button strong{
+    font-size: 10px;
+
+  }
+
+  header,main{
+    width: calc(100% - 187px);
+  }
+
+  #sidebar {
+    width: 187px;
+}
+
   .songs{
      width: calc(100% / 2 - 15px);
+  }
 
-   }
+  footer .footer-left i,
+  footer .footer-center i,
+  footer .footer-right i
+  {
+    font-size: 12px;
+  }
+
+
+  .footer-center .fa.fa-play-circle-o{
+    font-size: 20px;
+  }
+
+  .player-bar {
+    width: 181px;
+  }
+
+  .time-left {
+    margin-left: 188px;
+  }
+
+  .time-passed,
+  .time-left{
+    font-size: 10px;
+  }
+
+  .player-bar {
+    margin-top: 6px;
+
+  }
+
+  .control-player-icons {
+    margin-right: 13px;
+  }
+
+  .footer-right i{
+    margin-right: 10px;
+  }
+
+  footer .footer-left img {
+    width: 27px;
+  }
+
+  .fa.fa-folder-o, .fa.fa-heart-o {
+    margin-top: 7px;
+}
+.fa.fa-folder-o {
+    margin-left: 11px;
+  }
+
+  .footer-right,
+  .footer-left{
+    width: 151px;
+  }
+
+  footer .footer-left span, footer .footer-left p {
+    margin-left: 4px;
+    font-size: 10px;
+  }
+
+  header,
+  footer{
+    height: 50px;
+  }
+
+  main,
+  #sidebar{
+    height: calc(100% - 50px);
+  }
 }
 
 @media screen and (max-width:575px){
+
+  header,
+  main
+  {
+    width: calc(100% - 50px);
+  }
+
+
+
+  .song-container .songs h3 {
+    font-size: 17px;
+}
+
+
   .hidden-xs{
     display: none;
   }
