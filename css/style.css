@@ -866,6 +866,10 @@ footer .footer-left p{
       max-width: 100%;
     }
 
+    .footer-right, .footer-left {
+    width: 128px;
+}
+
     footer .footer-left img {
       width: 36px;
       margin-right: 6px;
@@ -885,6 +889,8 @@ footer .footer-left p{
     width: 226px;
 
   }
+
+
 
     footer .footer-center i{
       font-size: 17px;
