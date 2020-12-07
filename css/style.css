@@ -77,6 +77,11 @@ img{
   display: none;
 }
 
+.overflow-y-auto{
+  overflow-y: auto;
+
+}
+
 /*end utilities*/
 
 /*header*/
@@ -92,6 +97,7 @@ header{
   align-items: center;
   padding-right: 15px;
   z-index: 1000;
+
 }
 
 #upgrade-button{
@@ -118,7 +124,7 @@ header{
 #sidebar{
   width: 264px;
   background-color: #000;
-  height: calc(100% - 80px);
+  height: 100vh;
   padding: 30px 15px;
 
 }
@@ -144,6 +150,7 @@ header{
 
 .top-sidebar-container{
   width: 150px;
+  overflow: hidden;
 }
 
 
@@ -193,8 +200,7 @@ header{
 }
 
 .playlist{
-  overflow-y: auto;
-  /* height: calc(100% - 130px); */
+  height: calc(100vh - 390px);
 }
 
 .playlist h4{
@@ -244,6 +250,8 @@ header{
 
 #sidebar .install-app{
   height: 90px;
+  overflow: hidden;
+
 }
 
 .bottom-install-app img{
@@ -299,14 +307,12 @@ header{
 /*main*/
 main{
   width: calc(100% - 264px);
-
   height:calc(100% - 80px);
-  overflow-y: auto;
   padding: 0 15px 20px;
 
 }
 
-.bl-main h2{
+main h2{
   margin-top: 60px;
   margin-bottom: 20px;
   font-size: 30px;
@@ -364,21 +370,21 @@ main{
   z-index: 99;
 }
 
-.bl-main .hdue,/*secondo h2*/
-.bl-main .htre  {
+main .hdue,/*secondo h2*/
+main .htre  {
   margin-bottom: 5px;
 }
 
-.bl-main .hdue{
+main .hdue{
   margin-top: 50px;
 }
 
-.bl-main .htre{ /*terzo h2*/
+main .htre{ /*terzo h2*/
   margin-top: 30px;
 }
 
 
-.bl-main p{
+main p{
   margin-bottom: 20px;
 }
 
@@ -582,7 +588,7 @@ footer .footer-left p{
     font-size: 14px;
   }
 
-  .bl-main h2{
+  main h2{
     margin-top: 0;
   }
 
@@ -837,18 +843,17 @@ footer .footer-left p{
 
 
 
-
-    .home-logo-container{
-      border-left: 0;
-      margin-top: 0;
-    }
-
     #sidebar{
       width: 50px;
       padding-top: 0;
-}
+  }
+
+  .home-logo-container{
+    border-left: 0;
+    margin-top: 0;
 
 
+  }
 
     .top-sidebar-container{
       /* height: 25px; */
@@ -856,18 +861,32 @@ footer .footer-left p{
       width: 25px;
       border-radius: 50%;
       margin-top: 10px;
+      overflow: inherit;
 
   }
+
+  #sidebar .top-sidebar-container .search-library-container{
+    overflow: hidden;
+    width: 25px;
+  }
+
+  #sidebar .search-library-container img{
+    width: 100%;
+  }
+
+  #sidebar .install-app{
+    overflow: hidden;
+    height: 70px;
+  }
+
+
 
   .top-sidebar-container img{
     margin-top: 0;
   }
 
-    #sidebar .install-app{
-      height: 50px;
-    }
 
-    .top-install-app{
+  .top-install-app{
       border-bottom: 0;
     }
 
