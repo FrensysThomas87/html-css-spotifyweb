@@ -506,12 +506,13 @@ footer .footer-left p{
 .player-bar:hover .point,
 .vol-up:hover .point{
   display: block;
-
+  cursor: pointer;
 }
 
-.player-bar:hover{
+.player-bar:hover,
+.vol-up:hover{
   cursor: pointer;
-  }
+}
 
 .player-bar:hover .fill,
 .vol-up:hover .fill{
