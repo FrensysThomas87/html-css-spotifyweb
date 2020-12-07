@@ -73,6 +73,10 @@ img{
   color: #fff;
 }
 
+.hidden-lg{
+  display: none;
+}
+
 /*end utilities*/
 
 /*header*/
@@ -132,9 +136,17 @@ header{
   background-color: #fff;
 }
 
-.logo-spotify-container{
+.sidebar-content{
+  flex-direction: column;
+  justify-content:space-between;
+  height: calc(100vh - 90px);
+}
+
+.top-sidebar-container{
   width: 150px;
 }
+
+
 
 .home-logo-container{
 
@@ -156,9 +168,7 @@ header{
   width: 20%;
 }
 
-.sidebar-content{
-  height: calc(100% - 160px);
-}
+
 
 .home-logo-container span strong
 {
@@ -184,7 +194,7 @@ header{
 
 .playlist{
   overflow-y: auto;
-  height: calc(100% - 90px);
+  /* height: calc(100% - 130px); */
 }
 
 .playlist h4{
@@ -230,6 +240,10 @@ header{
 .top-install-app span{
   vertical-align: top;
   margin-left: 5px;
+}
+
+#sidebar .install-app{
+  height: 90px;
 }
 
 .bottom-install-app img{
@@ -536,7 +550,7 @@ footer .footer-left p{
 
 @media screen and (min-width:992px) and (max-width:1429px){
 
-  .logo-spotify-container {
+  .top-sidebar-container {
     width: 127px;
   }
 
@@ -552,7 +566,7 @@ footer .footer-left p{
 
 @media screen and (max-width:991px){
 
-  .logo-spotify-container{
+  .top-sidebar-container{
     width: 130px;
   }
 
@@ -790,6 +804,13 @@ footer .footer-left p{
 
 @media screen and (max-width:575px){
 
+  .show-xs{
+    display: block;
+  }
+  .hidden-xs{
+    display: none;
+  }
+
     header,
     main
     {
@@ -815,37 +836,40 @@ footer .footer-left p{
   }
 
 
-    .hidden-xs{
-      display: none;
-    }
+
 
     .home-logo-container{
       border-left: 0;
+      margin-top: 0;
     }
 
     #sidebar{
       width: 50px;
-      position:relative;
-    }
-
-    #sidebar .install-app{
-      position: absolute;
-      bottom: 0;
-    }
+      padding-top: 0;
+}
 
 
-    .logo-spotify-container{
-      height: 25px;
+
+    .top-sidebar-container{
+      /* height: 25px; */
+      height: 100%;
       width: 25px;
       border-radius: 50%;
-      background-image: url("../img/logo-small.svg");
-      background-size: cover;
+      margin-top: 10px;
+
   }
+
+  .top-sidebar-container img{
+    margin-top: 0;
+  }
+
+    #sidebar .install-app{
+      height: 50px;
+    }
 
     .top-install-app{
       border-bottom: 0;
     }
-
 
     header{
       width: calc(100% - 50px);
