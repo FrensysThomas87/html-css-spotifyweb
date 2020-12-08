@@ -825,6 +825,14 @@ footer .footer-left p{
     display: none;
   }
 
+   #upgrade-button{
+    padding-bottom: 8px;
+  }
+
+  #upgrade-button > span {
+    font-size: 10px;
+}
+
     header,
     main
     {
@@ -881,7 +889,7 @@ footer .footer-left p{
     }
 
   #sidebar .top-sidebar-container .search-library-container{
-    overflow: hidden;
+
     width: 25px;
   }
 
@@ -944,9 +952,7 @@ footer .footer-left p{
 
   }
 
-
-
-    footer .footer-center i{
+footer .footer-center i{
       font-size: 17px;
       margin-right: 10px;
     }
@@ -971,10 +977,6 @@ footer .footer-left p{
   .time-passed, .time-left {
       margin-top: 17px;
     }
-
-
-
-
 
 }
 /*END MEDIA QUERIES*/
