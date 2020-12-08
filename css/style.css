@@ -868,16 +868,17 @@ footer .footer-left p{
   }
 
 
-
-    .top-sidebar-container{
+  .top-sidebar-container{
       /* height: 25px; */
       height: 100%;
       width: 25px;
       border-radius: 50%;
       margin-top: 10px;
+    }
 
-
-  }
+    .top-sidebar-container .logo-small{
+      margin-left: 15px;
+    }
 
   #sidebar .top-sidebar-container .search-library-container{
     overflow: hidden;
