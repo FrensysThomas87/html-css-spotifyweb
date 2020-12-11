@@ -835,6 +835,10 @@ footer .footer-left p{
       height: calc(100% - 80px);
     }
 
+    #sidebar{
+      padding-right: 0;
+    }
+
     #sidebar .home-logo-container img, .search-library-container img {
       width: 14%;
   }
